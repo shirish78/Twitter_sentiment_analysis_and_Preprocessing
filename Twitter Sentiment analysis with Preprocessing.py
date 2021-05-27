@@ -25,7 +25,7 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 # %matplotlib inline
 
 # read the dataset
-data = pd.read_csv('C:/Users/Shirish/Twitter Sentiment/twitter_sentiments.csv')
+data = pd.read_csv('twitter_sentiments.csv')
 # view the top rows
 data.head()
 data.shape
